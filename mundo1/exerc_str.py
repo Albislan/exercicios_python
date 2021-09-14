@@ -1,0 +1,35 @@
+# a = 'Início'
+# b = 'Fim'
+# print(f'{a:*^50}')
+# nome = input('Digite seu nome completo:\n')
+# print(f'Com letras maiúsculas: \n{nome.upper()}')
+# print()
+# print(f'Com letras minúsculas: \n{nome.lower()}')
+# print()
+# print(f'Seu Nome completo tem {len(nome.replace(" ", ""))} letras')
+# print()
+# nome_split = nome.split()
+# print(f'Seu primeiro Nome tem {len(nome_split[0])} letras')
+# print()
+# print(f'Seu primeiro nome é {nome_split[0]}')
+# print()
+# print(f'Seu último nome é {nome_split[-1]}')
+# print(f'{b:*^50}')
+
+
+# print(f'{a:*^50}')
+# numero = int(input('Digite um número de 0 a 9999:\n'))
+# print(f'Analisando o numero {numero}')
+# print(f'unidade:{numero // 1 % 10} \ndezena:{numero // 10 % 10}\ncentena:{numero // 100 % 10}\nmilhar:{numero// 1000 % 10}')
+# print(f'{b:*^50}')
+
+
+# print(f'{a:*^50}')
+# frase = str(input('Digite uma frase: \n')).upper().strip()
+# print() 
+# print(f'Nessa frase aparece(m) {frase.count("A")} vez(es) a letra "A"')
+# print()
+# print(f'A letra "A" aparece a primeira vez na posição {frase.find("A") + 1}')
+# print()
+# print(f'A ultima vez que a letra "A" aparece é na posição {frase.rfind("A") + 1}')
+# print(f'{b:*^50}')
