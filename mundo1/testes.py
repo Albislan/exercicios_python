@@ -57,3 +57,8 @@
 
 
 #inicializando Condições
+
+#trabalhando com cores
+print(f' \033[4;30;47m Meu chapa \033[m')
+#30 - Branco, 31 - Vermelho, 32 - Verde, 33 - Amarelo, 34 - Azul, 35 - Roxo, 36 - Verde-azulado, 37 - Cinza
+#40 - Branco, 41 - Vermelho, 42 - Verde, 43 - Amarelo, 44 - Azul, 45 - Roxo, 46 - Verde-azulado, 47 - Cinza
