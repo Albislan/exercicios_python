@@ -35,3 +35,14 @@ valores2 = valores[:] # cria uma cópia
 print(valores2.index(min(valores2))) # mostra a posicao de indices começando por zero
 print(min(valores2))    
 print(valores2.count(4)) # mostra a posição do valor começando por 1
+
+dados = list()
+dados.append(valores2[:])
+print(dados)
+dados.append(valores)
+print()
+print(dados)
+for d in dados:
+    for v in d:
+        print(v)
+print(dados[0][4])
