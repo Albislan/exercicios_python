@@ -46,3 +46,21 @@ for d in dados:
     for v in d:
         print(v)
 print(dados[0][4])
+
+#dicionarios
+dados_dict = dict()
+dados_dict2 = dict()
+dados_dict = {'nome': 'Pedro', 'idade': 25}
+dados_dict['sexo'] = 'M'
+dados_dict['erro'] = 'errou'
+del dados_dict['erro'] # sem ponto e parentes - deleta o elemento
+print(dados_dict) # dados_dict.clear() limpa todo o dicionario
+for k, v in dados_dict.items():
+    print(f'a chave "{k}" contem o valor -> "{v}"')
+estado = dict()
+brasil = list()
+for count in range(0, 3):
+    estado['uf'] = input('Unidade Federativa\n')
+    estado['sigla'] = input('Sigla do estado\n')
+    brasil.append(estado.copy())
+print(brasil)    
